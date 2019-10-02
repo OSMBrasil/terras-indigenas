@@ -1,6 +1,14 @@
-## Terras Indígenas no OpenStreetMap
+# Terras Indígenas no OpenStreetMap
 
 Em construção...
+
+## Extração de dados
+
+Pré-requisitos:
+
+* git
+* nvm
+* osm2geojson
 
 ## Consulta Overpass
 

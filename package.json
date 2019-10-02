@@ -1,0 +1,27 @@
+{
+  "name": "osm-terras-indigenas",
+  "version": "0.0.0",
+  "description": "Em construção...",
+  "main": "index.js",
+  "scripts": {
+    "download": "mkdir -p .tmp && curl -d @terras-indigenas.overpass --compressed 'http://overpass-api.de/api/interpreter' "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vgeorge/terras-indigenas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vgeorge/terras-indigenas/issues"
+  },
+  "homepage": "https://github.com/vgeorge/terras-indigenas#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "osmtogeojson": "^3.0.0-beta.3",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "request-promise": "^4.2.4"
+  }
+}
