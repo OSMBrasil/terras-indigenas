@@ -9,6 +9,7 @@ Pré-requisitos:
 * git
 * nvm
 * osm2geojson
+* [tippecanoe](https://github.com/mapbox/tippecanoe)
 
 ## Consulta Overpass
 
@@ -29,5 +30,3 @@ out skel qt;
 ## Referências
 
 * [Arquivos shape georeferenciados pela FUNAI](http://www.funai.gov.br/index.php/shape)
-
-

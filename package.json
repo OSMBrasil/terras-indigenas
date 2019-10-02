@@ -4,7 +4,10 @@
   "description": "Em construção...",
   "main": "index.js",
   "scripts": {
-    "download": "mkdir -p .tmp && curl -d @terras-indigenas.overpass --compressed 'http://overpass-api.de/api/interpreter' "
+    "download": "node tasks/download-osm",
+    "mbtiles": "tippecanoe -o osm.mbtiles -zg osm.geojson",
+    "tiles": "tippecanoe -e ./data/tiles/ -zg ./data/sources/osm.geojson",
+    "mbview": "mbview osm.mbtiles"
   },
   "repository": {
     "type": "git",
